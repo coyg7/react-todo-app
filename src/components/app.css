@@ -1,0 +1,51 @@
+.main-container {
+    padding-left: 500px; 
+    background: lightgrey;
+}
+
+body{
+    background: lightgrey;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+h1 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background: lightblue;
+
+}
+
+th {
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 80px;
+}
+
+.task-desc {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.createTodoInput {
+    padding-top: 50px;
+}
+
+.search-box {
+    margin-top: 30px;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
