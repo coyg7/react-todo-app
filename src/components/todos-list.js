@@ -18,7 +18,7 @@ class TodoList extends React.Component {
     render() {
         return(
             <table>
-                <TodoListHeader  className="todoListHeader"/>
+                <TodoListHeader  className="todoListHeader" />
                 <tbody>
                     {this.renderItems()}
                 </tbody>

@@ -100,9 +100,6 @@ class App extends React.Component {
         }).then(() => {
             this.fetchTodos();
         });
-
-
-        
     }
 
     deleteTask(taskToDelete) {
@@ -126,17 +123,17 @@ class App extends React.Component {
     }
 
     handleSearch(key) {
-        axios.get('http://127.0.0.1/api/todos', {
+        axios.get('http://127.0.0.1:8848/api/todos/search', {
             params: {
                 key: key
             }
         }).then((value) => {
+            console.log('value', value);
             this.setState({
                 todos: value.data.data
             })
-        })
+        });
             
-
     }
 }
 

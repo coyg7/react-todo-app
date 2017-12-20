@@ -6,7 +6,7 @@ class Search extends React.Component {
 		super();
 
 		this.state = {
-			searchKey: 'Search'
+			searchKey: ''
 		}
 
 		this.handleChange = this.handleChange.bind(this);
@@ -22,6 +22,7 @@ class Search extends React.Component {
 		return(
 			<input 
 				type='text' 
+				placeholder="Search for todos...."
 				value = {this.state.searchKey}
 				onChange = {this.handleChange}
 				className = 'search-box'
